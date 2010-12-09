@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:orientation="horizontal">
+	<CheckBox
+		android:id="@+id/checkBox"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:focusable="false" />
+	<TextView android:id="@+id/text1" xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="150dip"
+	    android:layout_height="20dip"
+	    android:layout_toRightOf="@+id/checkBox"
+	    android:text="AA"/>
+	<TextView android:id="@+id/date" xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="75dip"
+	    android:layout_height="20dip"
+	    android:layout_toRightOf="@+id/text1"
+	    android:text="12/31/2010"/>
+	<TextView android:id="@+id/priority" xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="50dip"
+	    android:layout_height="20dip"
+	    android:layout_toRightOf="@+id/date"
+	    android:layout_marginLeft="10dip"
+	    android:text="BB"/>
+</RelativeLayout>    

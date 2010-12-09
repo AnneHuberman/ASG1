@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:text="@string/title" />
+		<EditText android:id="@+id/title" 
+		  android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_weight="1"/>
+	</LinearLayout>
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal" android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:orientation="vertical"
+		    android:padding="10dip"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content">
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/priority"
+		    />
+		    <Spinner 
+		        android:id="@+id/spinner"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:prompt="@string/priority_prompt"
+		    />
+		</LinearLayout>
+		    
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="10dip" 
+		    android:orientation="vertical">
+		    <TextView android:id="@+id/dateDisplay"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Due Date"/>
+		    <Button android:id="@+id/pickDate"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Change the date"/>
+		</LinearLayout>
+	    
+	    
+	</LinearLayout>
+	
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:text="@string/body" />
+	<EditText android:id="@+id/body" android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:scrollbars="vertical" />
+	
+	<Button android:id="@+id/confirm" 
+	  android:text="@string/confirm"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+
+</LinearLayout>

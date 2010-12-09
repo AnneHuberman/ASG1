@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">To Do List</string>
+    <string name="no_notes">No Items Yet</string>
+    <string name="menu_insert">Add Item</string>
+    <string name="menu_delete">Delete Item</string>
+    <string name="menu_sort">Sort Items</string>
+    <string name="menu_bkrnd">Sel Bkrnd</string>
+    <string name="title">Title</string>
+    <string name="body">Body</string>
+    <string name="confirm">Confirm</string>
+    <string name="edit_note">Edit Note</string>
+	<string name="priority">Priority</string>
+    <string name="priority_prompt">Choose a priority</string>
+    <string-array name="priorities_array">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+    <string-array name="short_priorities_array">
+        <item>Low</item>
+        <item>Med</item>
+        <item>Hi</item>
+    </string-array>
+</resources>
