@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"    
+	android:layout_width="fill_parent"    
+	android:layout_height="fill_parent" 
+	android:orientation="vertical">    
+
+	<RelativeLayout 
+		android:id="@+id/RelativeLayout02" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+		<TextView 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:text="Text-to-Speech mode" 
+		/>
+		<ToggleButton 
+			android:id="@+id/audioEnable" 
+			android:layout_height="wrap_content" 
+			android:text="Text-To-Speech" 
+			android:textOn="Enabled" 
+			android:textOff="Disabled" 
+			android:layout_width="wrap_content" 
+			android:layout_alignParentRight="true" 
+		/>
+	</RelativeLayout>
+	<RelativeLayout 
+		android:id="@+id/RelativeLayout01" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+		<TextView 
+			android:id="@+id/nosLabel" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:text="Number of tasks to read:  " 
+			android:enabled="false"
+		/>
+		<EditText 
+			android:id="@+id/nosToRead" 
+			android:layout_height="wrap_content" 
+			android:enabled="false" 
+			android:layout_width="wrap_content" 
+			android:maxLength="2" 
+			android:layout_alignParentRight="true" 
+			android:minWidth="50dip"/>	
+	</RelativeLayout>
+</LinearLayout>
